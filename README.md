@@ -29,10 +29,16 @@ Your Final Project proposal is due. You should submit a link to a GitHub project
      - Grocery Item: POST ("/") to create a grocery item, GET ("/") get all grocery items in store, GET ("/:id") get a grocery item based on its id, PUT ("/:id") update a grocery item, DELETE ("/:id") delete a grocery item based on its id
      - Grocery List: POST ("/") to create a grocery list item, GET ("/") get all grocery list items, GET ("/:id") get a grocery list item based on its id, PUT ("/:id") update a grocery list item, DELETE ("/:id") delete a grocery list item based on its id  
    - Index.js files: One for the routes folder that will list what routes the program will use and one for the main folder for where it will connect to, etc.
-   - Test files: One for user, grocery category, grocery item, and grocery list 
+   - Test files: One for user, grocery category, grocery item, and grocery list
+   - Other files: .gitignore, install any dependencies (Node.js, npm, jest test, etc.) to make project executable 
    - External data sources: Sample data will be entered into MongoDB
 
 4. Clear and direct call-outs of how you will meet the various project requirements.
+   - API will have middleware that checks if the user is a valid user via middleware within the user files.
+   - There will be at a minimum 2 sets of CRUD routes because we have to create a set of CRUD routes for each of the models represented within this project (which amounts to 4 here.)
+   - Indexes and/or unique indexes might be used to quickly find a grocery item and/or a user
+   - Text search, aggregations, and lookups can be applied to the daos for finding grocery items that are part of a grocery category and/or it can also be applied to what is currently on the user's grocery shopping list.
+   - Tests will be implemented for each of the different components (user, grocery category, grocery item, grocery list.)
+     
+5. A timeline for what project components you plan to complete, week by week, for the remainder of the class.
    - 
-
-6. A timeline for what project components you plan to complete, week by week, for the remainder of the class. 
