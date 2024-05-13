@@ -41,4 +41,7 @@ Your Final Project proposal is due. You should submit a link to a GitHub project
    - Tests will be implemented for each of the different components (user, grocery category, grocery item, grocery list.)
      
 5. A timeline for what project components you plan to complete, week by week, for the remainder of the class.
-   - 
+   - Week 7: Install any dependencies, create folder structure of project (models, daos, routes, etc.), create blank files for the models, daos, routes, etc. and place them into respective folders, fill out index.js file and place them in main folder noting what it will be connected to, write out user models (making sure that the data types and any indexes needed are noted properly), write down an "example" of how a user/grocery category/grocery item/grocery list would be returned to the user, choose authentication method (UUID vs. JWT), write middleware and determine which files it will be used in  
+   - Week 8: Write daos and routes for all components, complete index.js file for routes folder, start writing Jest tests for components and test them
+   - Week 9: Set up MongoDB to hold the data, finish writing Jest tests and continue testing for them, try it out in Postman or something similar, create PowerPoint slide deck 
+   - Week 10: Hopefully 90% of the project will be functional in time for the class presentation, wrap up project if needed and submit 
