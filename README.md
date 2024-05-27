@@ -2,6 +2,29 @@
 # Donna Quach 
 Final Project for JavaScript 330B Spring 2024 
 
+***UPDATE: May 26, 2024***
+What was completed:
+1) Created package.json and package-lock.json files in root folder 
+2) Created .gitignore file in folder 
+3) Made sure Node.js was installed 
+4) Installed dependencies (bcrypt, express, jsonwebtoken, mongoose)
+5) Installed dev dependencies (jest-mongodb preset, jest, supertest)
+6) Installed npm ci (clean install)
+7) Created server.js file in root folder 
+8) Created index.js file in root folder which contains mongoose connection to Grocery-Shopping db
+9) Created node.js.yml file within .github/workflows folder 
+10) Created empty folders that will hold dao and route files 
+11) Set up models for project (user, grocery category, grocery item, grocery list)
+ 
+What remains: 
+1) Writing tests for all route files (user, grocery category, grocery item, grocery list)
+2) Writing code for all route files (user, grocery category, grocery item, grocery list)
+3) Writing code for all dao files (user, grocery category, grocery item, grocery list)
+4) Making sure that requests work in Postman 
+
+***END OF UPDATE***
+
+
 Proposal and Task Breakdown
 Your Final Project proposal is due. You should submit a link to a GitHub project that will house your submission. The project README should contain your project proposal. Your proposal should include:
 

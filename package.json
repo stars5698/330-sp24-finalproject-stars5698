@@ -1,0 +1,39 @@
+{
+  "name": "330-sp24-finalproject-stars5698",
+  "version": "1.0.0",
+  "description": "Final Project for JavaScript 330B Spring 2024",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "jest --runInBand",
+    "ci": "jest --json --runInBand",
+    "tdd": "jest --watch --runInBand",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "preset": "@shelf/jest-mongodb",
+    "watchPathIgnorePatterns": [
+      "globalConfig"
+    ]
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^4.3.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  }
+}
