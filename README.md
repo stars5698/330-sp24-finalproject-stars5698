@@ -2,6 +2,9 @@
 # Donna Quach 
 Final Project for JavaScript 330B Spring 2024 
 
+***SELF-EVALUATION: June 9, 2024***
+I thought I did well when it came to planning out how I would approach this project. I found it helpful that I was able to lay out what kind of models, daos, and routes I would create in great detail. It kept me organized because it helped me to remember what I need to include in my project to meet the requirements. I learned a lot while working on this assignment. There were bugs that I have never encountered before in previous homework assignments, so I had the opportunity to learn what those bugs meant and learned how to resolve them in order to make my tests pass. In addition, I liked using Postman to validate that my routes are actually working properly visually. I learned how to use Postman in conjunction with the tests to see if my program was written in a way that it does what it is supposed to do. It helped to see how the data was being passed through the program in or out. I think I could have improved on what kind of data was displayed. One of my models includes showing the type of grocery category, however I only had time to include the categoryId rather than the category name. But, doing so would require some more logic that would extract the category name, due to time constraints I was not able to get that part completed. Having the category name display on the grocery list itself would have made it more apparent to the user what kind of items they have included in their grocery list. A challenge on this final project was writing tests before I writing the code and learning what the tests do specifically line-by-line. It took me some time to finally understand and/or get used to writing the lines of code. 
+
 ***UPDATE: May 26, 2024***
 What was completed:
 1) Created package.json and package-lock.json files in root folder 
